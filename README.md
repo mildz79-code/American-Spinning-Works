@@ -1,25 +1,65 @@
-# American Spinning Works
+# American Spinning Works Website
 
-Landing page project for American Spinning Works, built with Vite + React + TypeScript.
+A production-ready React + Vite + TypeScript + Tailwind CSS marketing website for **American Spinning Works**, designed with a premium industrial and patriotic visual direction.
 
-## Local development
+## Stack
+
+- React 18
+- Vite 5
+- TypeScript 5
+- Tailwind CSS 3
+
+## Getting Started
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Production build
+Then open the local Vite URL shown in your terminal.
 
-```bash
-npm run build
-npm run preview
+## Scripts
+
+- `npm run dev` - Start local development server
+- `npm run build` - Type-check and build production assets
+- `npm run preview` - Preview built assets locally
+- `npm run lint` - Run ESLint checks
+
+## Project Structure
+
+```text
+.
+├─ public/
+│  └─ assets/
+│     ├─ images/
+│     └─ video/
+├─ src/
+│  ├─ assets/
+│  ├─ components/
+│  ├─ lib/
+│  ├─ sections/
+│  ├─ App.tsx
+│  ├─ index.css
+│  └─ main.tsx
+├─ index.html
+├─ package.json
+├─ postcss.config.cjs
+├─ tailwind.config.ts
+├─ tsconfig.app.json
+├─ tsconfig.json
+├─ tsconfig.node.json
+└─ vite.config.ts
 ```
 
-## GitHub Pages deployment notes
+## Placeholder Assets to Replace
 
-This project is configured for GitHub Pages project-site hosting via:
+- `public/assets/images/hero-mill-placeholder.svg`
+- `public/assets/video/video-placeholder.svg`
+- `public/assets/images/logo-mark-placeholder.svg` (optional future logo mark)
+- Future infographic/diagram asset for Infrastructure section
 
-- `base: '/American-Spinning-Works/'` in `vite.config.ts`
+## Notes for Future Integration
 
-After merging to `main`, deploy the `dist/` output with your preferred GitHub Pages workflow (for example a GitHub Actions Pages deploy job).
+- Contact form in `CTASection` is UI-only and currently non-submitting.
+- Comments in code indicate where Supabase or email API integration can be added.
+- Copy is centralized in `src/lib/content.ts` for easy content updates.
