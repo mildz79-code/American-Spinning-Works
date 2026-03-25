@@ -1,0 +1,5 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" rx="24" fill="#061A34"/>
+  <path d="M40 140L85 60L120 120L150 70L160 140H40Z" fill="#C1272D"/>
+  <text x="50" y="170" fill="white" font-family="Arial" font-size="24" font-weight="700">ASW</text>
+</svg>
